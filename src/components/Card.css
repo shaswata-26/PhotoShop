@@ -1,0 +1,36 @@
+/* Card.css */
+
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    text-align: center;
+    margin: 10px; 
+    transition: transform 0.2s; 
+    width: 300px;
+    height: 370px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .card-image {
+    width: 100%; 
+    margin-left: 0%;
+    margin-right: 0%;
+    
+  }
+  
+  .card-heading {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .card-paragraph {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
